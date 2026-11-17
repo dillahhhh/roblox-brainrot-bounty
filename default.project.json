@@ -1,0 +1,28 @@
+{
+  "name": "roblox-brainrot-bounty",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "EggConfig": {
+        "$path": "src/shared/EggConfig.luau"
+      }
+    },
+    "ServerScriptService": {
+      "EconomyService": {
+        "$path": "src/server/EconomyService.luau"
+      },
+      "PlotManager": {
+        "$path": "src/server/PlotManager.luau"
+      },
+      "EggService": {
+        "$path": "src/server/EggService.luau"
+      },
+      "PedestalService": {
+        "$path": "src/server/PedestalService.luau"
+      },
+      "MarketChest": {
+        "$path": "src/server/MarketChest.luau"
+      }
+    }
+  }
+}
