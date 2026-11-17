@@ -1,0 +1,1768 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="RBXWorkspace">
+		<Properties>
+			<string name="Name">Workspace</string>
+			<bool name="FilteringEnabled">true</bool>
+		</Properties>
+		<Item class="Part" referent="RBXBaseplate">
+			<Properties>
+				<string name="Name">Baseplate</string>
+				<bool name="Anchored">true</bool>
+				<CoordinateFrame name="CFrame">
+        <X>0</X><Y>-10</Y><Z>0</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+				<Vector3 name="size">
+					<X>512</X><Y>20</Y><Z>512</Z>
+				</Vector3>
+				<Color3uint8 name="Color3uint8">4284572001</Color3uint8>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX_181">
+        <Properties>
+            <string name="Name">PlazaLantai</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>0</X><Y>0.5</Y><Z>0</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>60</X><Y>1</Y><Z>240</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4289374890</Color3uint8>
+        </Properties>
+    </Item>
+		<Item class="Part" referent="RBX_182">
+        <Properties>
+            <string name="Name">Sign</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>0</X><Y>8</Y><Z>-110</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>10</X><Y>4</Y><Z>1</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4280295459</Color3uint8>
+        </Properties>
+        <Item class="SurfaceGui" referent="RBX_183">
+            <Properties>
+                <string name="Name">SurfaceGui</string>
+                <token name="Face">5</token>
+                <bool name="AlwaysOnTop">false</bool>
+            </Properties>
+            <Item class="TextLabel" referent="RBX_184">
+                <Properties>
+                    <string name="Name">TextLabel</string>
+                    <string name="Text">🏛️ PASAR NUSANTARA 🥚</string>
+                    <UDim2 name="Size">
+                        <XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO>
+                    </UDim2>
+                    <Color3 name="TextColor3">
+                        <R>1</R><G>1</G><B>1</B>
+                    </Color3>
+                    <bool name="TextScaled">true</bool>
+                    <token name="Font">17</token>
+                    <float name="BackgroundTransparency">1</float>
+                </Properties>
+            </Item>
+        </Item>
+    </Item>
+		<Item class="Folder" referent="RBXPlotsFolder">
+			<Properties>
+				<string name="Name">Plots</string>
+			</Properties>
+			<Item class="Model" referent="RBX_101">
+        <Properties>
+            <string name="Name">Base1</string>
+        </Properties>
+        <Item class="Part" referent="RBX_104">
+        <Properties>
+            <string name="Name">Floor</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-70</X><Y>0.5</Y><Z>-90</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>40</X><Y>1</Y><Z>40</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4281878343</Color3uint8>
+        </Properties>
+    </Item>
+        <Item class="SpawnLocation" referent="RBX_102">
+            <Properties>
+                <string name="Name">SpawnPoint</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame">
+        <X>-70</X><Y>0.6</Y><Z>-80</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+                <Vector3 name="size"><X>6</X><Y>1</Y><Z>6</Z></Vector3>
+                <Color3uint8 name="Color3uint8">4278241535</Color3uint8>
+                <bool name="Neutral">true</bool>
+            </Properties>
+        </Item>
+        <Item class="Part" referent="RBX_105">
+        <Properties>
+            <string name="Name">Sign</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-70</X><Y>4</Y><Z>-108</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>10</X><Y>4</Y><Z>1</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4280295459</Color3uint8>
+        </Properties>
+        <Item class="SurfaceGui" referent="RBX_106">
+            <Properties>
+                <string name="Name">SurfaceGui</string>
+                <token name="Face">5</token>
+                <bool name="AlwaysOnTop">false</bool>
+            </Properties>
+            <Item class="TextLabel" referent="RBX_107">
+                <Properties>
+                    <string name="Name">TextLabel</string>
+                    <string name="Text">Base 1 (Kosong)</string>
+                    <UDim2 name="Size">
+                        <XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO>
+                    </UDim2>
+                    <Color3 name="TextColor3">
+                        <R>1</R><G>1</G><B>1</B>
+                    </Color3>
+                    <bool name="TextScaled">true</bool>
+                    <token name="Font">17</token>
+                    <float name="BackgroundTransparency">1</float>
+                </Properties>
+            </Item>
+        </Item>
+    </Item>
+        <Item class="Folder" referent="RBX_103">
+            <Properties>
+                <string name="Name">Pedestals</string>
+            </Properties>
+            <Item class="Part" referent="RBX_108">
+        <Properties>
+            <string name="Name">Stand1</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-80</X><Y>1.5</Y><Z>-95</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+            <Item class="Part" referent="RBX_109">
+        <Properties>
+            <string name="Name">Stand2</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-70</X><Y>1.5</Y><Z>-95</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+            <Item class="Part" referent="RBX_110">
+        <Properties>
+            <string name="Name">Stand3</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-60</X><Y>1.5</Y><Z>-95</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+        </Item>
+    </Item><Item class="Model" referent="RBX_111">
+        <Properties>
+            <string name="Name">Base2</string>
+        </Properties>
+        <Item class="Part" referent="RBX_114">
+        <Properties>
+            <string name="Name">Floor</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>70</X><Y>0.5</Y><Z>-90</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>40</X><Y>1</Y><Z>40</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4281878343</Color3uint8>
+        </Properties>
+    </Item>
+        <Item class="SpawnLocation" referent="RBX_112">
+            <Properties>
+                <string name="Name">SpawnPoint</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame">
+        <X>70</X><Y>0.6</Y><Z>-80</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+                <Vector3 name="size"><X>6</X><Y>1</Y><Z>6</Z></Vector3>
+                <Color3uint8 name="Color3uint8">4278241535</Color3uint8>
+                <bool name="Neutral">true</bool>
+            </Properties>
+        </Item>
+        <Item class="Part" referent="RBX_115">
+        <Properties>
+            <string name="Name">Sign</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>70</X><Y>4</Y><Z>-108</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>10</X><Y>4</Y><Z>1</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4280295459</Color3uint8>
+        </Properties>
+        <Item class="SurfaceGui" referent="RBX_116">
+            <Properties>
+                <string name="Name">SurfaceGui</string>
+                <token name="Face">5</token>
+                <bool name="AlwaysOnTop">false</bool>
+            </Properties>
+            <Item class="TextLabel" referent="RBX_117">
+                <Properties>
+                    <string name="Name">TextLabel</string>
+                    <string name="Text">Base 2 (Kosong)</string>
+                    <UDim2 name="Size">
+                        <XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO>
+                    </UDim2>
+                    <Color3 name="TextColor3">
+                        <R>1</R><G>1</G><B>1</B>
+                    </Color3>
+                    <bool name="TextScaled">true</bool>
+                    <token name="Font">17</token>
+                    <float name="BackgroundTransparency">1</float>
+                </Properties>
+            </Item>
+        </Item>
+    </Item>
+        <Item class="Folder" referent="RBX_113">
+            <Properties>
+                <string name="Name">Pedestals</string>
+            </Properties>
+            <Item class="Part" referent="RBX_118">
+        <Properties>
+            <string name="Name">Stand1</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>60</X><Y>1.5</Y><Z>-95</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+            <Item class="Part" referent="RBX_119">
+        <Properties>
+            <string name="Name">Stand2</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>70</X><Y>1.5</Y><Z>-95</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+            <Item class="Part" referent="RBX_120">
+        <Properties>
+            <string name="Name">Stand3</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>80</X><Y>1.5</Y><Z>-95</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+        </Item>
+    </Item><Item class="Model" referent="RBX_121">
+        <Properties>
+            <string name="Name">Base3</string>
+        </Properties>
+        <Item class="Part" referent="RBX_124">
+        <Properties>
+            <string name="Name">Floor</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-70</X><Y>0.5</Y><Z>-30</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>40</X><Y>1</Y><Z>40</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4281878343</Color3uint8>
+        </Properties>
+    </Item>
+        <Item class="SpawnLocation" referent="RBX_122">
+            <Properties>
+                <string name="Name">SpawnPoint</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame">
+        <X>-70</X><Y>0.6</Y><Z>-20</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+                <Vector3 name="size"><X>6</X><Y>1</Y><Z>6</Z></Vector3>
+                <Color3uint8 name="Color3uint8">4278241535</Color3uint8>
+                <bool name="Neutral">true</bool>
+            </Properties>
+        </Item>
+        <Item class="Part" referent="RBX_125">
+        <Properties>
+            <string name="Name">Sign</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-70</X><Y>4</Y><Z>-48</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>10</X><Y>4</Y><Z>1</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4280295459</Color3uint8>
+        </Properties>
+        <Item class="SurfaceGui" referent="RBX_126">
+            <Properties>
+                <string name="Name">SurfaceGui</string>
+                <token name="Face">5</token>
+                <bool name="AlwaysOnTop">false</bool>
+            </Properties>
+            <Item class="TextLabel" referent="RBX_127">
+                <Properties>
+                    <string name="Name">TextLabel</string>
+                    <string name="Text">Base 3 (Kosong)</string>
+                    <UDim2 name="Size">
+                        <XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO>
+                    </UDim2>
+                    <Color3 name="TextColor3">
+                        <R>1</R><G>1</G><B>1</B>
+                    </Color3>
+                    <bool name="TextScaled">true</bool>
+                    <token name="Font">17</token>
+                    <float name="BackgroundTransparency">1</float>
+                </Properties>
+            </Item>
+        </Item>
+    </Item>
+        <Item class="Folder" referent="RBX_123">
+            <Properties>
+                <string name="Name">Pedestals</string>
+            </Properties>
+            <Item class="Part" referent="RBX_128">
+        <Properties>
+            <string name="Name">Stand1</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-80</X><Y>1.5</Y><Z>-35</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+            <Item class="Part" referent="RBX_129">
+        <Properties>
+            <string name="Name">Stand2</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-70</X><Y>1.5</Y><Z>-35</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+            <Item class="Part" referent="RBX_130">
+        <Properties>
+            <string name="Name">Stand3</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-60</X><Y>1.5</Y><Z>-35</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+        </Item>
+    </Item><Item class="Model" referent="RBX_131">
+        <Properties>
+            <string name="Name">Base4</string>
+        </Properties>
+        <Item class="Part" referent="RBX_134">
+        <Properties>
+            <string name="Name">Floor</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>70</X><Y>0.5</Y><Z>-30</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>40</X><Y>1</Y><Z>40</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4281878343</Color3uint8>
+        </Properties>
+    </Item>
+        <Item class="SpawnLocation" referent="RBX_132">
+            <Properties>
+                <string name="Name">SpawnPoint</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame">
+        <X>70</X><Y>0.6</Y><Z>-20</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+                <Vector3 name="size"><X>6</X><Y>1</Y><Z>6</Z></Vector3>
+                <Color3uint8 name="Color3uint8">4278241535</Color3uint8>
+                <bool name="Neutral">true</bool>
+            </Properties>
+        </Item>
+        <Item class="Part" referent="RBX_135">
+        <Properties>
+            <string name="Name">Sign</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>70</X><Y>4</Y><Z>-48</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>10</X><Y>4</Y><Z>1</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4280295459</Color3uint8>
+        </Properties>
+        <Item class="SurfaceGui" referent="RBX_136">
+            <Properties>
+                <string name="Name">SurfaceGui</string>
+                <token name="Face">5</token>
+                <bool name="AlwaysOnTop">false</bool>
+            </Properties>
+            <Item class="TextLabel" referent="RBX_137">
+                <Properties>
+                    <string name="Name">TextLabel</string>
+                    <string name="Text">Base 4 (Kosong)</string>
+                    <UDim2 name="Size">
+                        <XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO>
+                    </UDim2>
+                    <Color3 name="TextColor3">
+                        <R>1</R><G>1</G><B>1</B>
+                    </Color3>
+                    <bool name="TextScaled">true</bool>
+                    <token name="Font">17</token>
+                    <float name="BackgroundTransparency">1</float>
+                </Properties>
+            </Item>
+        </Item>
+    </Item>
+        <Item class="Folder" referent="RBX_133">
+            <Properties>
+                <string name="Name">Pedestals</string>
+            </Properties>
+            <Item class="Part" referent="RBX_138">
+        <Properties>
+            <string name="Name">Stand1</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>60</X><Y>1.5</Y><Z>-35</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+            <Item class="Part" referent="RBX_139">
+        <Properties>
+            <string name="Name">Stand2</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>70</X><Y>1.5</Y><Z>-35</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+            <Item class="Part" referent="RBX_140">
+        <Properties>
+            <string name="Name">Stand3</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>80</X><Y>1.5</Y><Z>-35</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+        </Item>
+    </Item><Item class="Model" referent="RBX_141">
+        <Properties>
+            <string name="Name">Base5</string>
+        </Properties>
+        <Item class="Part" referent="RBX_144">
+        <Properties>
+            <string name="Name">Floor</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-70</X><Y>0.5</Y><Z>30</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>40</X><Y>1</Y><Z>40</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4281878343</Color3uint8>
+        </Properties>
+    </Item>
+        <Item class="SpawnLocation" referent="RBX_142">
+            <Properties>
+                <string name="Name">SpawnPoint</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame">
+        <X>-70</X><Y>0.6</Y><Z>40</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+                <Vector3 name="size"><X>6</X><Y>1</Y><Z>6</Z></Vector3>
+                <Color3uint8 name="Color3uint8">4278241535</Color3uint8>
+                <bool name="Neutral">true</bool>
+            </Properties>
+        </Item>
+        <Item class="Part" referent="RBX_145">
+        <Properties>
+            <string name="Name">Sign</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-70</X><Y>4</Y><Z>12</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>10</X><Y>4</Y><Z>1</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4280295459</Color3uint8>
+        </Properties>
+        <Item class="SurfaceGui" referent="RBX_146">
+            <Properties>
+                <string name="Name">SurfaceGui</string>
+                <token name="Face">5</token>
+                <bool name="AlwaysOnTop">false</bool>
+            </Properties>
+            <Item class="TextLabel" referent="RBX_147">
+                <Properties>
+                    <string name="Name">TextLabel</string>
+                    <string name="Text">Base 5 (Kosong)</string>
+                    <UDim2 name="Size">
+                        <XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO>
+                    </UDim2>
+                    <Color3 name="TextColor3">
+                        <R>1</R><G>1</G><B>1</B>
+                    </Color3>
+                    <bool name="TextScaled">true</bool>
+                    <token name="Font">17</token>
+                    <float name="BackgroundTransparency">1</float>
+                </Properties>
+            </Item>
+        </Item>
+    </Item>
+        <Item class="Folder" referent="RBX_143">
+            <Properties>
+                <string name="Name">Pedestals</string>
+            </Properties>
+            <Item class="Part" referent="RBX_148">
+        <Properties>
+            <string name="Name">Stand1</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-80</X><Y>1.5</Y><Z>25</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+            <Item class="Part" referent="RBX_149">
+        <Properties>
+            <string name="Name">Stand2</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-70</X><Y>1.5</Y><Z>25</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+            <Item class="Part" referent="RBX_150">
+        <Properties>
+            <string name="Name">Stand3</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-60</X><Y>1.5</Y><Z>25</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+        </Item>
+    </Item><Item class="Model" referent="RBX_151">
+        <Properties>
+            <string name="Name">Base6</string>
+        </Properties>
+        <Item class="Part" referent="RBX_154">
+        <Properties>
+            <string name="Name">Floor</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>70</X><Y>0.5</Y><Z>30</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>40</X><Y>1</Y><Z>40</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4281878343</Color3uint8>
+        </Properties>
+    </Item>
+        <Item class="SpawnLocation" referent="RBX_152">
+            <Properties>
+                <string name="Name">SpawnPoint</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame">
+        <X>70</X><Y>0.6</Y><Z>40</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+                <Vector3 name="size"><X>6</X><Y>1</Y><Z>6</Z></Vector3>
+                <Color3uint8 name="Color3uint8">4278241535</Color3uint8>
+                <bool name="Neutral">true</bool>
+            </Properties>
+        </Item>
+        <Item class="Part" referent="RBX_155">
+        <Properties>
+            <string name="Name">Sign</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>70</X><Y>4</Y><Z>12</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>10</X><Y>4</Y><Z>1</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4280295459</Color3uint8>
+        </Properties>
+        <Item class="SurfaceGui" referent="RBX_156">
+            <Properties>
+                <string name="Name">SurfaceGui</string>
+                <token name="Face">5</token>
+                <bool name="AlwaysOnTop">false</bool>
+            </Properties>
+            <Item class="TextLabel" referent="RBX_157">
+                <Properties>
+                    <string name="Name">TextLabel</string>
+                    <string name="Text">Base 6 (Kosong)</string>
+                    <UDim2 name="Size">
+                        <XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO>
+                    </UDim2>
+                    <Color3 name="TextColor3">
+                        <R>1</R><G>1</G><B>1</B>
+                    </Color3>
+                    <bool name="TextScaled">true</bool>
+                    <token name="Font">17</token>
+                    <float name="BackgroundTransparency">1</float>
+                </Properties>
+            </Item>
+        </Item>
+    </Item>
+        <Item class="Folder" referent="RBX_153">
+            <Properties>
+                <string name="Name">Pedestals</string>
+            </Properties>
+            <Item class="Part" referent="RBX_158">
+        <Properties>
+            <string name="Name">Stand1</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>60</X><Y>1.5</Y><Z>25</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+            <Item class="Part" referent="RBX_159">
+        <Properties>
+            <string name="Name">Stand2</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>70</X><Y>1.5</Y><Z>25</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+            <Item class="Part" referent="RBX_160">
+        <Properties>
+            <string name="Name">Stand3</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>80</X><Y>1.5</Y><Z>25</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+        </Item>
+    </Item><Item class="Model" referent="RBX_161">
+        <Properties>
+            <string name="Name">Base7</string>
+        </Properties>
+        <Item class="Part" referent="RBX_164">
+        <Properties>
+            <string name="Name">Floor</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-70</X><Y>0.5</Y><Z>90</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>40</X><Y>1</Y><Z>40</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4281878343</Color3uint8>
+        </Properties>
+    </Item>
+        <Item class="SpawnLocation" referent="RBX_162">
+            <Properties>
+                <string name="Name">SpawnPoint</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame">
+        <X>-70</X><Y>0.6</Y><Z>100</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+                <Vector3 name="size"><X>6</X><Y>1</Y><Z>6</Z></Vector3>
+                <Color3uint8 name="Color3uint8">4278241535</Color3uint8>
+                <bool name="Neutral">true</bool>
+            </Properties>
+        </Item>
+        <Item class="Part" referent="RBX_165">
+        <Properties>
+            <string name="Name">Sign</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-70</X><Y>4</Y><Z>72</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>10</X><Y>4</Y><Z>1</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4280295459</Color3uint8>
+        </Properties>
+        <Item class="SurfaceGui" referent="RBX_166">
+            <Properties>
+                <string name="Name">SurfaceGui</string>
+                <token name="Face">5</token>
+                <bool name="AlwaysOnTop">false</bool>
+            </Properties>
+            <Item class="TextLabel" referent="RBX_167">
+                <Properties>
+                    <string name="Name">TextLabel</string>
+                    <string name="Text">Base 7 (Kosong)</string>
+                    <UDim2 name="Size">
+                        <XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO>
+                    </UDim2>
+                    <Color3 name="TextColor3">
+                        <R>1</R><G>1</G><B>1</B>
+                    </Color3>
+                    <bool name="TextScaled">true</bool>
+                    <token name="Font">17</token>
+                    <float name="BackgroundTransparency">1</float>
+                </Properties>
+            </Item>
+        </Item>
+    </Item>
+        <Item class="Folder" referent="RBX_163">
+            <Properties>
+                <string name="Name">Pedestals</string>
+            </Properties>
+            <Item class="Part" referent="RBX_168">
+        <Properties>
+            <string name="Name">Stand1</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-80</X><Y>1.5</Y><Z>85</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+            <Item class="Part" referent="RBX_169">
+        <Properties>
+            <string name="Name">Stand2</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-70</X><Y>1.5</Y><Z>85</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+            <Item class="Part" referent="RBX_170">
+        <Properties>
+            <string name="Name">Stand3</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>-60</X><Y>1.5</Y><Z>85</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+        </Item>
+    </Item><Item class="Model" referent="RBX_171">
+        <Properties>
+            <string name="Name">Base8</string>
+        </Properties>
+        <Item class="Part" referent="RBX_174">
+        <Properties>
+            <string name="Name">Floor</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>70</X><Y>0.5</Y><Z>90</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>40</X><Y>1</Y><Z>40</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4281878343</Color3uint8>
+        </Properties>
+    </Item>
+        <Item class="SpawnLocation" referent="RBX_172">
+            <Properties>
+                <string name="Name">SpawnPoint</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame">
+        <X>70</X><Y>0.6</Y><Z>100</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+                <Vector3 name="size"><X>6</X><Y>1</Y><Z>6</Z></Vector3>
+                <Color3uint8 name="Color3uint8">4278241535</Color3uint8>
+                <bool name="Neutral">true</bool>
+            </Properties>
+        </Item>
+        <Item class="Part" referent="RBX_175">
+        <Properties>
+            <string name="Name">Sign</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>70</X><Y>4</Y><Z>72</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>10</X><Y>4</Y><Z>1</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4280295459</Color3uint8>
+        </Properties>
+        <Item class="SurfaceGui" referent="RBX_176">
+            <Properties>
+                <string name="Name">SurfaceGui</string>
+                <token name="Face">5</token>
+                <bool name="AlwaysOnTop">false</bool>
+            </Properties>
+            <Item class="TextLabel" referent="RBX_177">
+                <Properties>
+                    <string name="Name">TextLabel</string>
+                    <string name="Text">Base 8 (Kosong)</string>
+                    <UDim2 name="Size">
+                        <XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO>
+                    </UDim2>
+                    <Color3 name="TextColor3">
+                        <R>1</R><G>1</G><B>1</B>
+                    </Color3>
+                    <bool name="TextScaled">true</bool>
+                    <token name="Font">17</token>
+                    <float name="BackgroundTransparency">1</float>
+                </Properties>
+            </Item>
+        </Item>
+    </Item>
+        <Item class="Folder" referent="RBX_173">
+            <Properties>
+                <string name="Name">Pedestals</string>
+            </Properties>
+            <Item class="Part" referent="RBX_178">
+        <Properties>
+            <string name="Name">Stand1</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>60</X><Y>1.5</Y><Z>85</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+            <Item class="Part" referent="RBX_179">
+        <Properties>
+            <string name="Name">Stand2</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>70</X><Y>1.5</Y><Z>85</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+            <Item class="Part" referent="RBX_180">
+        <Properties>
+            <string name="Name">Stand3</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <CoordinateFrame name="CFrame">
+        <X>80</X><Y>1.5</Y><Z>85</Z>
+        <R00>1</R00><R01>0</R01><R02>0</R02>
+        <R10>0</R10><R11>1</R11><R12>0</R12>
+        <R20>0</R20><R21>0</R21><R22>1</R22>
+    </CoordinateFrame>
+            <Vector3 name="size">
+                <X>6</X><Y>2</Y><Z>6</Z>
+            </Vector3>
+            <Color3uint8 name="Color3uint8">4294951475</Color3uint8>
+        </Properties>
+    </Item>
+        </Item>
+    </Item>
+		</Item>
+	</Item>
+	<Item class="ReplicatedStorage" referent="RBXReplicatedStorage">
+		<Properties>
+			<string name="Name">ReplicatedStorage</string>
+		</Properties>
+		<Item class="ModuleScript" referent="RBXEggConfig">
+			<Properties>
+				<string name="Name">EggConfig</string>
+				<ProtectedString name="Source"><![CDATA[--[[
+    EggConfig.luau
+    Lokasi: ReplicatedStorage > EggConfig
+    100% GRATIS: Konfigurasi Telur Brainrot, Drop Rate (%), dan Stat Pet
+]]
+
+local EggConfig = {}
+
+-- Roster Pet Brainrot yang bisa ditetaskan dari Telur
+EggConfig.Pets = {
+    -- Tier Common
+    ["Noob"] = { Rarity = "Common", Multiplier = 1, DisplayName = "Noob Ohio 😐" },
+    ["BabyGronk"] = { Rarity = "Common", Multiplier = 2, DisplayName = "Baby Gronk 👶" },
+    ["GrimaceCup"] = { Rarity = "Common", Multiplier = 3, DisplayName = "Gelas Grimace 🥤" },
+
+    -- Tier Rare
+    ["Capybara"] = { Rarity = "Rare", Multiplier = 5, DisplayName = "Capybara Santuy 🦫" },
+    ["SmurfCat"] = { Rarity = "Rare", Multiplier = 8, DisplayName = "Smurf Cat Biru 🍄" },
+    ["Rizzler"] = { Rarity = "Rare", Multiplier = 12, DisplayName = "The Rizzler 😎" },
+
+    -- Tier Epic
+    ["SkibidiBasic"] = { Rarity = "Epic", Multiplier = 25, DisplayName = "Skibidi Toilet 🚽" },
+    ["FanumTaxer"] = { Rarity = "Epic", Multiplier = 40, DisplayName = "Fanum Taxer 🍔" },
+    ["TitanSpeaker"] = { Rarity = "Epic", Multiplier = 65, DisplayName = "Titan Speaker 🔊" },
+
+    -- Tier Legendary / Mythic
+    ["TungTungHamster"] = { Rarity = "Legendary", Multiplier = 150, DisplayName = "Tung Tung Hamster 🐹" },
+    ["SigmaMewing"] = { Rarity = "Legendary", Multiplier = 300, DisplayName = "Sigma Mewing 🤫🧏" },
+    ["GoldenGigaChad"] = { Rarity = "Mythic", Multiplier = 1000, DisplayName = "GOLDEN GIGACHAD 🗿👑" },
+}
+
+-- Daftar Telur yang ada di Pasar Tengah
+EggConfig.Eggs = {
+    ["TelurOhio"] = {
+        DisplayName = "Telur Ohio 🥚",
+        Cost = 100,
+        Currency = "Coins",
+        Drops = {
+            { Pet = "Noob", Chance = 60 },
+            { Pet = "BabyGronk", Chance = 30 },
+            { Pet = "GrimaceCup", Chance = 10 },
+        }
+    },
+    ["TelurRizz"] = {
+        DisplayName = "Telur Rizz 🟣",
+        Cost = 1200,
+        Currency = "Coins",
+        Drops = {
+            { Pet = "Capybara", Chance = 55 },
+            { Pet = "SmurfCat", Chance = 35 },
+            { Pet = "Rizzler", Chance = 10 },
+        }
+    },
+    ["TelurSkibidi"] = {
+        DisplayName = "Telur Skibidi 🔴",
+        Cost = 10000,
+        Currency = "Coins",
+        Drops = {
+            { Pet = "SkibidiBasic", Chance = 60 },
+            { Pet = "FanumTaxer", Chance = 30 },
+            { Pet = "TitanSpeaker", Chance = 10 },
+        }
+    },
+    ["TelurSigma"] = {
+        DisplayName = "Telur Divine Sigma 🗿",
+        Cost = 75000,
+        Currency = "Coins",
+        Drops = {
+            { Pet = "TungTungHamster", Chance = 75 },
+            { Pet = "SigmaMewing", Chance = 24 },
+            { Pet = "GoldenGigaChad", Chance = 1 }, -- 1% Mythic!
+        }
+    }
+}
+
+return EggConfig
+]]></ProtectedString>
+			</Properties>
+		</Item>
+		<Item class="Folder" referent="RBXEventsFolder">
+			<Properties>
+				<string name="Name">Events</string>
+			</Properties>
+			<Item class="RemoteFunction" referent="RBXBuyEggFunc">
+				<Properties>
+					<string name="Name">BuyEgg</string>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="ServerScriptService" referent="RBXServerScriptService">
+		<Properties>
+			<string name="Name">ServerScriptService</string>
+		</Properties>
+		<Item class="Script" referent="RBXPlotManager">
+			<Properties>
+				<string name="Name">PlotManager</string>
+				<ProtectedString name="Source"><![CDATA[--[[
+    PlotManager.luau
+    Lokasi: ServerScriptService > PlotManager
+    100% GRATIS: Sistem 8 Base Simetris (Auto Claim saat join, reset saat leave)
+]]
+
+local Players = game:GetService("Players")
+local Workspace = game:GetService("Workspace")
+
+local PlotManager = {}
+PlotManager.OccupiedPlots = {} -- [PlotModel] = Player
+
+local plotsFolder = Workspace:FindFirstChild("Plots")
+if not plotsFolder then
+    plotsFolder = Instance.new("Folder")
+    plotsFolder.Name = "Plots"
+    plotsFolder.Parent = Workspace
+end
+
+function PlotManager.GetPlayerPlot(player)
+    for plot, owner in pairs(PlotManager.OccupiedPlots) do
+        if owner == player then
+            return plot
+        end
+    end
+    return nil
+end
+
+local function onPlayerAdded(player)
+    local assignedPlot = nil
+
+    -- Loop dari Base1 sampai Base8
+    for i = 1, 8 do
+        local plot = plotsFolder:FindFirstChild("Base" .. i)
+        if plot and not PlotManager.OccupiedPlots[plot] then
+            assignedPlot = plot
+            PlotManager.OccupiedPlots[plot] = player
+            break
+        end
+    end
+
+    if assignedPlot then
+        print(string.format("[Base System] %s mengklaim %s", player.Name, assignedPlot.Name))
+
+        -- Update Sign Papan Nama Base
+        local sign = assignedPlot:FindFirstChild("Sign")
+        if sign and sign:FindFirstChild("SurfaceGui") then
+            local label = sign.SurfaceGui:FindFirstChildOfClass("TextLabel")
+            if label then
+                label.Text = "Base Milik: " .. player.DisplayName
+                label.TextColor3 = Color3.fromRGB(0, 255, 127)
+            end
+        end
+
+        -- Spawn player di base miliknya
+        player.CharacterAdded:Connect(function(character)
+            local root = character:WaitForChild("HumanoidRootPart")
+            local spawnPart = assignedPlot:FindFirstChild("SpawnPoint")
+            if spawnPart then
+                task.wait(0.1)
+                root.CFrame = spawnPart.CFrame + Vector3.new(0, 3, 0)
+            end
+        end)
+    else
+        warn("[Base System] Server penuh, tidak ada base kosong untuk " .. player.Name)
+    end
+end
+
+local function onPlayerRemoving(player)
+    for plot, owner in pairs(PlotManager.OccupiedPlots) do
+        if owner == player then
+            PlotManager.OccupiedPlots[plot] = nil
+            print(string.format("[Base System] %s meninggalkan %s (Kosong)", player.Name, plot.Name))
+
+            -- Reset Sign
+            local sign = plot:FindFirstChild("Sign")
+            if sign and sign:FindFirstChild("SurfaceGui") then
+                local label = sign.SurfaceGui:FindFirstChildOfClass("TextLabel")
+                if label then
+                    label.Text = plot.Name .. " (Kosong)"
+                    label.TextColor3 = Color3.fromRGB(220, 220, 220)
+                end
+            end
+            break
+        end
+    end
+end
+
+Players.PlayerAdded:Connect(onPlayerAdded)
+Players.PlayerRemoving:Connect(onPlayerRemoving)
+
+return PlotManager
+]]></ProtectedString>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBXEconomyService">
+			<Properties>
+				<string name="Name">EconomyService</string>
+				<ProtectedString name="Source"><![CDATA[--[[
+    EconomyService.luau
+    Lokasi: ServerScriptService > EconomyService
+    100% GRATIS: Sistem Uang (Coins, Gems, Rebirth, Level) + Auto Save DataStore
+]]
+
+local Players = game:GetService("Players")
+local DataStoreService = game:GetService("DataStoreService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local EconomyDataStore = nil
+pcall(function()
+    EconomyDataStore = DataStoreService:GetDataStore("BrainrotEconomy_v1")
+end)
+
+local EconomyService = {}
+
+-- Setup RemoteEvents di ReplicatedStorage biar Client bisa minta data
+local eventsFolder = ReplicatedStorage:FindFirstChild("Events")
+if not eventsFolder then
+    eventsFolder = Instance.new("Folder")
+    eventsFolder.Name = "Events"
+    eventsFolder.Parent = ReplicatedStorage
+end
+
+local function setupPlayer(player)
+    -- Folder Leaderstats (tampil di kanan atas layar)
+    local leaderstats = Instance.new("Folder")
+    leaderstats.Name = "leaderstats"
+    leaderstats.Parent = player
+
+    local coins = Instance.new("IntValue")
+    coins.Name = "Coins 🪙"
+    coins.Value = 250 -- Modal awal gratis buat beli telur pertama!
+    coins.Parent = leaderstats
+
+    local gems = Instance.new("IntValue")
+    gems.Name = "Gems 💎"
+    gems.Value = 10
+    gems.Parent = leaderstats
+
+    local rebirth = Instance.new("IntValue")
+    rebirth.Name = "Rebirth 🔄"
+    rebirth.Value = 0
+    rebirth.Parent = leaderstats
+
+    local level = Instance.new("IntValue")
+    level.Name = "Level ⭐"
+    level.Value = 1
+    level.Parent = leaderstats
+
+    -- Load Data dari DataStore
+    if EconomyDataStore then
+        local success, savedData = pcall(function()
+            return EconomyDataStore:GetAsync(tostring(player.UserId))
+        end)
+
+        if success and savedData then
+            coins.Value = savedData.Coins or coins.Value
+            gems.Value = savedData.Gems or gems.Value
+            rebirth.Value = savedData.Rebirth or rebirth.Value
+            level.Value = savedData.Level or level.Value
+            print("Data loaded buat " .. player.Name)
+        end
+    end
+end
+
+local function savePlayer(player)
+    if not EconomyDataStore then return end
+    local leaderstats = player:FindFirstChild("leaderstats")
+    if not leaderstats then return end
+
+    local dataToSave = {
+        Coins = leaderstats:FindFirstChild("Coins 🪙") and leaderstats["Coins 🪙"].Value or 0,
+        Gems = leaderstats:FindFirstChild("Gems 💎") and leaderstats["Gems 💎"].Value or 0,
+        Rebirth = leaderstats:FindFirstChild("Rebirth 🔄") and leaderstats["Rebirth 🔄"].Value or 0,
+        Level = leaderstats:FindFirstChild("Level ⭐") and leaderstats["Level ⭐"].Value or 1,
+    }
+
+    local success, err = pcall(function()
+        EconomyDataStore:SetAsync(tostring(player.UserId), dataToSave)
+    end)
+
+    if success then
+        print("Data sukses tersimpan buat " .. player.Name)
+    else
+        warn("Gagal save data " .. player.Name .. ": " .. tostring(err))
+    end
+end
+
+-- Rebirth System
+function EconomyService.DoRebirth(player)
+    local leaderstats = player:FindFirstChild("leaderstats")
+    if not leaderstats then return false end
+
+    local coins = leaderstats:FindFirstChild("Coins 🪙")
+    local rebirth = leaderstats:FindFirstChild("Rebirth 🔄")
+
+    local cost = (rebirth.Value + 1) * 50000
+
+    if coins.Value >= cost then
+        coins.Value = 0 -- Reset koin
+        rebirth.Value += 1
+        print(player.Name .. " Berhasil Rebirth ke-" .. rebirth.Value)
+        return true
+    else
+        return false, "Koin kurang! Butuh " .. cost .. " Koin."
+    end
+end
+
+Players.PlayerAdded:Connect(setupPlayer)
+Players.PlayerRemoving:Connect(savePlayer)
+
+-- Auto save saat server shutdown
+game:BindToClose(function()
+    for _, player in ipairs(Players:GetPlayers()) do
+        savePlayer(player)
+    end
+end)
+
+return EconomyService
+]]></ProtectedString>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBXEggService">
+			<Properties>
+				<string name="Name">EggService</string>
+				<ProtectedString name="Source"><![CDATA[--[[
+    EggService.luau
+    Lokasi: ServerScriptService > EggService
+    100% GRATIS: Logika Gacha Telur Brainrot, Roll RNG, Simpan ke Inventory Player
+]]
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
+
+local EggConfig = require(ReplicatedStorage:WaitForChild("EggConfig"))
+
+local EggService = {}
+local PlayerInventories = {} -- [Player] = { "Noob", "SkibidiBasic", ... }
+
+-- Siapkan RemoteFunction buat Client minta Beli Telur
+local eventsFolder = ReplicatedStorage:WaitForChild("Events")
+local buyEggFunc = eventsFolder:FindFirstChild("BuyEgg")
+if not buyEggFunc then
+    buyEggFunc = Instance.new("RemoteFunction")
+    buyEggFunc.Name = "BuyEgg"
+    buyEggFunc.Parent = eventsFolder
+end
+
+-- Algoritma Roll Telur (Weighted Random)
+local function rollEgg(eggName, rebirthLevel)
+    local eggData = EggConfig.Eggs[eggName]
+    if not eggData then return nil end
+
+    -- Hitung total chance
+    local totalWeight = 0
+    for _, drop in ipairs(eggData.Drops) do
+        totalWeight += drop.Chance
+    end
+
+    local randomNum = math.random() * totalWeight
+    local currentWeight = 0
+
+    for _, drop in ipairs(eggData.Drops) do
+        currentWeight += drop.Chance
+        if randomNum <= currentWeight then
+            return drop.Pet
+        end
+    end
+
+    return eggData.Drops[1].Pet
+end
+
+function EggService.HatchEgg(player, eggName)
+    local eggData = EggConfig.Eggs[eggName]
+    if not eggData then
+        return false, "Telur tidak ditemukan!"
+    end
+
+    local leaderstats = player:FindFirstChild("leaderstats")
+    if not leaderstats then
+        return false, "Data player belum siap!"
+    end
+
+    local coins = leaderstats:FindFirstChild("Coins 🪙")
+    local rebirth = leaderstats:FindFirstChild("Rebirth 🔄")
+    local rebirthVal = rebirth and rebirth.Value or 0
+
+    -- Cek uang cukup atau tidak
+    if coins.Value < eggData.Cost then
+        return false, "Koin tidak cukup! Butuh " .. eggData.Cost .. " Koin."
+    end
+
+    -- Potong uang
+    coins.Value -= eggData.Cost
+
+    -- Roll Pet
+    local hatchedPetId = rollEgg(eggName, rebirthVal)
+    local petInfo = EggConfig.Pets[hatchedPetId]
+
+    -- Masukkan ke Inventory
+    if not PlayerInventories[player] then
+        PlayerInventories[player] = {}
+    end
+    table.insert(PlayerInventories[player], hatchedPetId)
+
+    print(string.format("[Gacha Telur] %s berhasil menetaskan %s (%s)!", player.Name, petInfo.DisplayName, petInfo.Rarity))
+
+    return true, {
+        PetId = hatchedPetId,
+        Name = petInfo.DisplayName,
+        Rarity = petInfo.Rarity,
+        Multiplier = petInfo.Multiplier
+    }
+end
+
+-- Handle panggilan dari Client GUI
+buyEggFunc.OnServerInvoke = function(player, eggName)
+    return EggService.HatchEgg(player, eggName)
+end
+
+Players.PlayerRemoving:Connect(function(player)
+    PlayerInventories[player] = nil
+end)
+
+return EggService
+]]></ProtectedString>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBXPedestalService">
+			<Properties>
+				<string name="Name">PedestalService</string>
+				<ProtectedString name="Source"><![CDATA[--[[
+    PedestalService.luau
+    Lokasi: ServerScriptService > PedestalService
+    100% GRATIS: Sistem Pajang Brainrot di Base & Generate Passive Income Koin/Detik
+]]
+
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Workspace = game:GetService("Workspace")
+
+local EggConfig = require(ReplicatedStorage:WaitForChild("EggConfig"))
+local PlotManager = require(script.Parent:WaitForChild("PlotManager"))
+
+local PedestalService = {}
+
+-- Loop Passive Income tiap 1 detik
+task.spawn(function()
+    while true do
+        task.wait(1)
+        for _, player in ipairs(Players:GetPlayers()) do
+            local plot = PlotManager.GetPlayerPlot(player)
+            if plot then
+                local pedestalsFolder = plot:FindFirstChild("Pedestals")
+                if pedestalsFolder then
+                    local totalMultiplier = 0
+
+                    for _, stand in ipairs(pedestalsFolder:GetChildren()) do
+                        local petValue = stand:FindFirstChild("EquippedPet")
+                        if petValue and petValue.Value ~= "" then
+                            local petData = EggConfig.Pets[petValue.Value]
+                            if petData then
+                                totalMultiplier += petData.Multiplier
+                            end
+                        end
+                    end
+
+                    if totalMultiplier > 0 then
+                        local leaderstats = player:FindFirstChild("leaderstats")
+                        if leaderstats and leaderstats:FindFirstChild("Coins 🪙") then
+                            leaderstats["Coins 🪙"].Value += totalMultiplier
+                        end
+                    end
+                end
+            end
+        end
+    end
+end)
+
+-- Fungsi pasang pet ke pedestal base
+function PedestalService.EquipPetToPedestal(player, pedestalNumber, petId)
+    local plot = PlotManager.GetPlayerPlot(player)
+    if not plot then return false, "Kamu belum punya base!" end
+
+    local pedestals = plot:FindFirstChild("Pedestals")
+    if not pedestals then return false, "Folder Pedestals tidak ditemukan di base!" end
+
+    local targetStand = pedestals:FindFirstChild("Stand" .. pedestalNumber)
+    if not targetStand then return false, "Pedestal tidak valid!" end
+
+    local petValue = targetStand:FindFirstChild("EquippedPet")
+    if not petValue then
+        petValue = Instance.new("StringValue")
+        petValue.Name = "EquippedPet"
+        petValue.Parent = targetStand
+    end
+
+    petValue.Value = petId
+    local petData = EggConfig.Pets[petId]
+
+    -- Update Label Teks di Atas Stand
+    local sign = targetStand:FindFirstChild("Sign")
+    if sign and sign:FindFirstChild("SurfaceGui") then
+        local label = sign.SurfaceGui:FindFirstChildOfClass("TextLabel")
+        if label and petData then
+            label.Text = petData.DisplayName .. "\n(+" .. petData.Multiplier .. " Koin/dtk)"
+            label.TextColor3 = Color3.fromRGB(255, 215, 0)
+        end
+    end
+
+    print(string.format("[Pedestal] %s memajang %s di Stand %d!", player.Name, petData.DisplayName, pedestalNumber))
+    return true
+end
+
+return PedestalService
+]]></ProtectedString>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBXMarketChest">
+			<Properties>
+				<string name="Name">MarketChest</string>
+				<ProtectedString name="Source"><![CDATA[--[[
+    MarketChest.luau
+    Lokasi: ServerScriptService > MarketChest
+    100% GRATIS: Peti Harta Karun Pasar Tengah (Tempat farming Koin gratis untuk beli Telur)
+]]
+
+local Workspace = game:GetService("Workspace")
+local Debris = game:GetService("Debris")
+
+local MarketChest = {}
+
+local CHEST_RESPAWN_TIME = 45 -- Respawn tiap 45 detik
+local CHEST_HEALTH = 15       -- Butuh 15x sentuhan / pukulan buat hancur
+
+local function createChest(position)
+    local chest = Instance.new("Part")
+    chest.Name = "MarketChest"
+    chest.Size = Vector3.new(4, 4, 4)
+    chest.Position = position
+    chest.Anchored = true
+    chest.Material = Enum.Material.Neon
+    chest.Color = Color3.fromRGB(255, 170, 0) -- Warna Emas
+    chest.Parent = Workspace
+
+    -- BillboardGui buat nampilin Darah Peti
+    local billboard = Instance.new("BillboardGui")
+    billboard.Size = UDim2.new(0, 120, 0, 40)
+    billboard.StudsOffset = Vector3.new(0, 3, 0)
+    billboard.AlwaysOnTop = true
+    billboard.Parent = chest
+
+    local label = Instance.new("TextLabel")
+    label.Size = UDim2.new(1, 0, 1, 0)
+    label.BackgroundTransparency = 1
+    label.TextColor3 = Color3.fromRGB(255, 255, 255)
+    label.TextScaled = true
+    label.Font = Enum.Font.FredokaOne
+    label.Text = "📦 PETI PASAR\nHP: " .. CHEST_HEALTH
+    label.Parent = billboard
+
+    local currentHP = CHEST_HEALTH
+    local isDestroyed = false
+
+    chest.Touched:Connect(function(hit)
+        if isDestroyed then return end
+        local character = hit.Parent
+        local player = game.Players:GetPlayerFromCharacter(character)
+
+        if player then
+            currentHP -= 1
+            label.Text = "📦 PETI PASAR\nHP: " .. math.max(0, currentHP)
+
+            -- Efek visual kena pukul
+            chest.Color = Color3.fromRGB(255, 255, 255)
+            task.delay(0.1, function()
+                if not isDestroyed then
+                    chest.Color = Color3.fromRGB(255, 170, 0)
+                end
+            end)
+
+            -- Kalau HP habis, beri hadiah Koin & Gems ke player yang menghancurkan
+            if currentHP <= 0 then
+                isDestroyed = true
+                label.Text = "💥 TERBUKA!"
+
+                local leaderstats = player:FindFirstChild("leaderstats")
+                if leaderstats then
+                    local coinsReward = math.random(300, 800)
+                    local gemsReward = math.random(5, 15)
+
+                    leaderstats["Coins 🪙"].Value += coinsReward
+                    leaderstats["Gems 💎"].Value += gemsReward
+
+                    print(string.format("[Peti Pasar] %s menghancurkan peti! Dapet +%d Koin & +%d Gems!", player.Name, coinsReward, gemsReward))
+                end
+
+                chest.Transparency = 1
+                chest.CanCollide = false
+                task.wait(1)
+                chest:Destroy()
+
+                -- Tunggu waktu respawn, lalu spawn peti baru lagi
+                task.wait(CHEST_RESPAWN_TIME)
+                createChest(position)
+            end
+        end
+    end)
+end
+
+-- Posisi peti tepat di tengah Plaza Pasar Nusantara
+local centerPosition = Vector3.new(0, 5, 0)
+task.spawn(function()
+    createChest(centerPosition)
+end)
+
+return MarketChest
+]]></ProtectedString>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="Lighting" referent="RBXLighting">
+		<Properties>
+			<string name="Name">Lighting</string>
+			<Color3 name="Ambient"><R>0.5</R><G>0.5</G><B>0.5</B></Color3>
+			<float name="Brightness">2</float>
+		</Properties>
+	</Item>
+</roblox>
